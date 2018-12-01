@@ -1,0 +1,17 @@
+package Keywords;
+
+public class Driveway {
+
+public static int driveWaySize;
+	
+public void setDriveWaySize(int driveWaySize) {
+	 this.driveWaySize = driveWaySize;
+}
+public int getDriveWaySize() {
+		return driveWaySize;
+	}
+
+public void buildDriveWay( ) {
+		System.out.println("Lets build a driveway so we can share it");
+	}
+}

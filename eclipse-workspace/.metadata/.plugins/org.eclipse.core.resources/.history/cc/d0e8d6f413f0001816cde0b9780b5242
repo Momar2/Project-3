@@ -1,0 +1,16 @@
+package ClassNobject;
+
+public class House {
+
+	int HouseNumber;
+	String HouseName = "WhiteHouse";
+	
+	public String getHouseName() {
+		return HouseName;
+	}
+	
+	public void NumberOfBedRoom () {
+		System.out.println("There are 3 bedrooms");	
+	}
+
+}
